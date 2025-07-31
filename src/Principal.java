@@ -3,9 +3,9 @@ import pt.eujaques.screenmatch.Film;
 public class Principal {
     public static void main(String[] args) {
         Film meuFilme = new Film();
-        meuFilme.nome = "Burlesque";
-        meuFilme.anoDeLancamento = 2010;
-        meuFilme.duracaoEmMinutos = 120;
+        meuFilme.setNome("Burlesque");
+        meuFilme.setAnoDeLancamento(2010);
+        meuFilme.setDuracaoEmMinutos(120);
 
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(8);
