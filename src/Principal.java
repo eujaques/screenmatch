@@ -15,3 +15,4 @@ public class Principal {
         System.out.println(meuFilme.pegaMedia());
     }
 }
+//comentario para commit

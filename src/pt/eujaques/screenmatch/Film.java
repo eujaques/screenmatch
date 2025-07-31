@@ -43,3 +43,5 @@ public class Film {
         return somaDasAvaliacoes / totalDeAvaliacoes;
     }
 }
+
+//comentario pra commit
